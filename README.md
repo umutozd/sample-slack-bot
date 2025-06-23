@@ -5,7 +5,7 @@ This repository contains a sample Slack bot implementation in Go, with the follo
 - OAuth flow
 
 ### Quick Install
-Here's a link from by you can install the bot to your workspace, though it will not be functional as the server is not hosted anywhere:
+Here's a link from which you can install the bot to your workspace, though it will not be functional as the server is not hosted anywhere:
 
 <a href="https://slack.com/oauth/v2/authorize?client_id=4301412868374.5739063168660&scope=team:read,chat:write,app_mentions:read,im:history&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
