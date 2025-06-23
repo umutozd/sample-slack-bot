@@ -47,4 +47,4 @@ Once set up, go to https://api.slack.com/apps and create new bot from scratch. I
 4. Go to `Interactivity & Shortcuts` and after enabling it, add the following request URL: `<your-ngrok-url>/slack/interactive`
 
 ## Deployment
-Go to `Manage Distribution` page of you bot's configuration page and click on the `Add to Slack` button, which will redirect you to a consent page where you are asked for permission by Slack and to which workspace you want to install the bot. Once done, you will be redirected to the installed app's `About` tab. That's it!
+Go to `Manage Distribution` page of your bot's configuration page and click on the `Add to Slack` button, which will redirect you to a consent page where you are asked for permission by Slack and to which workspace you want to install the bot. Once done, you will be redirected to the installed app's `About` tab. That's it!
