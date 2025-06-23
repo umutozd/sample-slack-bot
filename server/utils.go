@@ -40,7 +40,7 @@ func writeJsonResponse(w http.ResponseWriter, statusCode int, body any) {
 	}
 
 	if writeError != nil {
-		logrus.WithError(err).Errorf("failed to write json response with status=%d and body: %s", statusCode, string(response))
+		logrus.WithError(writeError).Errorf("failed to write json response with status=%d and body: %s", statusCode, string(response))
 	}
 }
 
